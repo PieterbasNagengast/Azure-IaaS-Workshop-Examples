@@ -1,5 +1,6 @@
 #!/bin/bash
 
+resourcegroup="rg-azcli-example"
 vmname="myVM"
 username="azureuser"
 
