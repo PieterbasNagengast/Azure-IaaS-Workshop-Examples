@@ -6,7 +6,7 @@ username="azureuser"
 az vm create \
     --resource-group $resourcegroup \
     --name $vmname \
-    --image Win2022DatacenterGen2 \
+    --image "MicrosoftWindowsServer:WindowsServer:2022-datacenter-g2:20348.1006.220908" \
     --public-ip-sku Standard \
     --admin-username $username \
     --secure-boot enabled \
