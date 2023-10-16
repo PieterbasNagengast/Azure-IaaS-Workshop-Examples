@@ -13,6 +13,6 @@ az vm create \
     --secure-boot enabled \
     --size Standard_B1s \
     --storage-sku StandardSSD_LRS \
-    --uefi-enabled \
-    --vtpm-enabled \
-    --secure-boot-enabled \
+    --security-type "TrustedLaunch" \
+    --enable-secure-boot true \
+    --enable-vtpm true 
