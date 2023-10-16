@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Function app and storage account names must be unique.
+# StorageAccount parameters
 storageName=saazcli$RANDOM
 
 # Create a resource group.
@@ -12,3 +12,5 @@ az storage account create \
   --location westeurope \
   --resource-group myResourceGroup \
   --sku Standard_LRS
+
+
